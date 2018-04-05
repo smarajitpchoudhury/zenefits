@@ -1,5 +1,5 @@
 # cook your dish here
-#The function dict takes in the list of all characters (A) and the word in the form of a string(word)
+#The function dict takes in the list of all characters (A) and the word in the form of a string(word), it includes a test case
  fact(n):
     if n==0:
         return 1
@@ -26,4 +26,4 @@ def dict(A,word):
         A = new_A(A,word[i])
 
     return weight+1
-print (dict(['c','r','a'],'car'))
+#print (dict(['c','r','a'],'car'))
